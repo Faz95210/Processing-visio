@@ -1,0 +1,19 @@
+<component name="libraryTable">
+  <library name="librxtx">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/lib/jl1.0.1.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/jsminim.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/minim.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/mp3spi1.9.5.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/tritonus_aos.jar!/" />
+      <root url="jar://$PROJECT_DIR$/lib/tritonus_share.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <NATIVE>
+      <root url="file://$USER_HOME$/Downloads/rxtx-2.1-7-bins-r2/Mac_OS_X/librxtxSerial.jnilib" />
+    </NATIVE>
+    <SOURCES>
+      <root url="jar://$PROJECT_DIR$/lib/jl1.0.1.jar!/" />
+    </SOURCES>
+  </library>
+</component>
