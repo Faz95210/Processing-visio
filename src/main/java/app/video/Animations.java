@@ -44,7 +44,7 @@ public class Animations extends PApplet {
         Minim minim = new Minim(this);
 
         //Charger la chanson
-        song = minim.loadFile("/Users/faz/Documents/Work/Make Ur Sense/03-VideoThing/src/main/res/song.mp3");
+        song = minim.loadFile("/Users/faz/Documents/Work/Make Ur Sense/03-VideoThing/src/main/resources/song.mp3");
         //Créer l'objet FFT pour analyser la chanson
         fft = new FFT(song.bufferSize(), song.sampleRate());
 

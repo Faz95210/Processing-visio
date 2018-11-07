@@ -20,9 +20,10 @@ public class SerialListener implements SerialPortEventListener {
     /**
      * The port we're normally going to use.
      */
-    private static final String PORT_NAMES[] = {
-            "/dev/tty.usbmodem14101", // Mac OS X
-    };
+//    private static final String PORT_NAMES[] = {
+//            "/dev/tty.usbmodem14101", // Mac OS X
+//    };
+    private final String portName;
     /**
      * A BufferedReader which will be fed by a InputStreamReader
      * converting the bytes into characters
@@ -38,7 +39,8 @@ public class SerialListener implements SerialPortEventListener {
      */
     private static final int DATA_RATE = 57600;
 
-    public SerialListener() {
+    public SerialListener(final String portName) {
+        this.portName = portName;
         Thread t = new Thread(() -> {
             //the following line will keep this app alive for 1000 seconds,
             //waiting for events to occur and responding to them (printing incoming messages to console).
@@ -61,17 +63,15 @@ public class SerialListener implements SerialPortEventListener {
         //System.setProperty("gnu.io.rxtx.SerialPorts", "/dev/ttyACM0");
 
         CommPortIdentifier portId = null;
-        Enumeration portEnum = CommPortIdentifier.getPortIdentifiers();
+        final Enumeration portEnum = CommPortIdentifier.getPortIdentifiers();
 
         //First, Find an instance of serial port as set in PORT_NAMES.
         while (portEnum.hasMoreElements()) {
-            CommPortIdentifier currPortId = (CommPortIdentifier) portEnum.nextElement();
+            final CommPortIdentifier currPortId = (CommPortIdentifier) portEnum.nextElement();
             System.out.println(currPortId.getName());
-            for (String portName : PORT_NAMES) {
-                if (currPortId.getName().equals(portName)) {
-                    portId = currPortId;
-                    break;
-                }
+            if (currPortId.getName().equals(portName)) {
+                portId = currPortId;
+                break;
             }
         }
         if (portId == null) {
