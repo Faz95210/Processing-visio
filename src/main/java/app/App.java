@@ -21,8 +21,6 @@ public class App {
         final SerialListener serialListener = new SerialListener(PORT_NAME);
         final Animations animations = new Animations();
         final String[] processingArgs = {"MySketch"};
-//
-//        animations.setup();
         serialListener.initialize();
         PApplet.runSketch(processingArgs, animations);
 //
