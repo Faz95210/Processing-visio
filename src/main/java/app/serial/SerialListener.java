@@ -68,14 +68,14 @@ public class SerialListener implements SerialPortEventListener {
         //First, Find an instance of serial port as set in PORT_NAMES.
         while (portEnum.hasMoreElements()) {
             final CommPortIdentifier currPortId = (CommPortIdentifier) portEnum.nextElement();
-            System.out.println(currPortId.getName());
-            if (currPortId.getName().equals(portName)) {
+            if (currPortId.getName().contains("usbmodem")) {
+                System.out.printf("Connected to %s\n", currPortId.getName());
                 portId = currPortId;
                 break;
             }
         }
         if (portId == null) {
-            System.out.println("Could not find COM port.");
+            System.err.println("Could not find COM port.");
             return;
         }
 
@@ -119,7 +119,7 @@ public class SerialListener implements SerialPortEventListener {
         if (oEvent.getEventType() == SerialPortEvent.DATA_AVAILABLE) {
             try {
                 final String inputLine = input.readLine();
-//                System.out.println(inputLine);
+                System.out.println(inputLine);
                 currentVolume = Float.parseFloat(inputLine);
             } catch (Exception e) {
                 System.err.println(e.toString());

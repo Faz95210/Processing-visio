@@ -11,6 +11,7 @@ public class Animations extends PApplet {
     private FFT fft;
 
     private float specHi = 0.20f;   // 20%
+    private float previousVolume = 100;   // 20%
 
 // Il reste donc 64% du spectre possible qui ne sera pas utilisé.
 // Ces valeurs sont généralement trop hautes pour l'oreille humaine de toute facon.
@@ -33,7 +34,23 @@ public class Animations extends PApplet {
     }
 
     public void setVolume(final float volume) {
-        song.setGain(volume);
+        try {
+            final float difference = (volume - previousVolume) / 10;
+            if (difference > 0) {
+                for (float index = 0.1f; index <= difference; index += 0.1f) {
+                    song.setGain((index));
+                }
+            } else {
+                for (float index = -0.1f; index >= difference; index -= 0.1f) {
+                    song.setGain((index));
+                }
+            }
+            System.out.printf("New volume is %f. changed by %f\n", volume, (difference) / 10);
+            previousVolume = volume;
+        } catch (Exception exception) {
+            System.err.printf("Error while setting volume : %s", exception.getMessage());
+        }
+
     }
 
     @Override

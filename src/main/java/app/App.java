@@ -10,14 +10,14 @@ public class App {
     public static volatile String PORT_NAME = null;
 
     public static void main(String[] args) {
-        final Thread thread = new Thread(() -> {
-            final SelectCOMPort selectCOMPort = new SelectCOMPort();
-            PApplet.runSketch(new String[]{"Port Selector"}, selectCOMPort);
-        });
-        thread.run();
-        while (PORT_NAME == null) ;
-        System.out.println("Received " + PORT_NAME);
-        thread.interrupt();
+//        final Thread thread = new Thread(() -> {
+//            final SelectCOMPort selectCOMPort = new SelectCOMPort();
+//            PApplet.runSketch(new String[]{"Port Selector"}, selectCOMPort);
+//        });
+//        thread.run();
+//        while (PORT_NAME == null) ;
+//        System.out.println("Received " + PORT_NAME);
+//        thread.interrupt();
         final SerialListener serialListener = new SerialListener(PORT_NAME);
         final Animations animations = new Animations();
         final String[] processingArgs = {"MySketch"};
