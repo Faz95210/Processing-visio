@@ -4,7 +4,7 @@ plugins {
 
 jar {
     manifest {
-        attributes "Main-Class": "app.App"
+        attributes "Main-Class": "com.test.app.App"
     }
 
     from {

@@ -5,27 +5,31 @@
       <artifact name="test_main:jar" />
     </artifacts-to-build>
   </component>
+  <component name="AutoImportSettings">
+    <option name="autoReloadType" value="SELECTIVE" />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="4affcebc-318c-40f4-bf09-242af2d76884" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/fileHashes/fileHashes.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.bin" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.bin" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/4.8/taskHistory/taskHistory.lock" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" beforeDir="false" afterPath="$PROJECT_DIR$/.gradle/buildOutputCleanup/buildOutputCleanup.lock" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/gradle.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/gradle.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/app/App.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/app/App.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/app/serial/SerialListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/app/serial/SerialListener.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/app/video/Animations.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/app/video/Animations.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/app/video/Cube.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/app/video/Cube.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/out/production/classes/app/video/Mur.class" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/classes/app/video/Mur.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/App.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/serial/SerialListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/serial/SerialListener.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/app/video/Animations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/app/video/Animations.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/app/serial/SerialListener.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/app/serial/SerialListener.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/app/video/Animations.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/app/video/Animations.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/app/video/Cube.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/app/video/Cube.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/classes/java/main/app/video/Mur.class" beforeDir="false" afterPath="$PROJECT_DIR$/build/classes/java/main/app/video/Mur.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/App.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/app/App.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/serial/SelectCOMPort.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/app/serial/SelectCOMPort.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/serial/SerialListener.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/app/serial/SerialListener.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/app/video/Animations.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/test/app/video/Animations.java" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/out/" />
-    <ignored path="$PROJECT_DIR$/.gradle/" />
-    <ignored path="$PROJECT_DIR$/build/" />
-    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -84,147 +88,6 @@
         </projects_view>
       </state>
     </system>
-  </component>
-  <component name="FUSProjectUsageTrigger">
-    <session id="1894998296">
-      <usages-collector id="statistics.lifecycle.project">
-        <counts>
-          <entry key="project.closed" value="13" />
-          <entry key="project.open.time.12" value="1" />
-          <entry key="project.open.time.13" value="1" />
-          <entry key="project.open.time.15" value="1" />
-          <entry key="project.open.time.17" value="2" />
-          <entry key="project.open.time.18" value="2" />
-          <entry key="project.open.time.19" value="1" />
-          <entry key="project.open.time.22" value="1" />
-          <entry key="project.open.time.3" value="2" />
-          <entry key="project.open.time.34" value="1" />
-          <entry key="project.open.time.6" value="1" />
-          <entry key="project.opened" value="13" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.open">
-        <counts>
-          <entry key="MF" value="1" />
-          <entry key="class" value="9" />
-          <entry key="gradle" value="1" />
-          <entry key="java" value="8" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.open">
-        <counts>
-          <entry key="CLASS" value="9" />
-          <entry key="Groovy" value="1" />
-          <entry key="JAVA" value="8" />
-          <entry key="Manifest" value="1" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.extensions.edit">
-        <counts>
-          <entry key="MF" value="4" />
-          <entry key="gradle" value="92" />
-          <entry key="java" value="3460" />
-          <entry key="txt" value="79" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.file.types.edit">
-        <counts>
-          <entry key="Groovy" value="92" />
-          <entry key="JAVA" value="3460" />
-          <entry key="Manifest" value="4" />
-          <entry key="PLAIN_TEXT" value="79" />
-        </counts>
-      </usages-collector>
-      <usages-collector id="statistics.vcs.git.usages" />
-      <usages-collector id="statistics.spring.boot.mvc.usages" />
-      <usages-collector id="statistics.js.language.service.starts" />
-      <usages-collector id="statistics.spring.boot.run.usages" />
-    </session>
-  </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/app/App.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="272">
-              <caret line="19" column="29" selection-start-line="19" selection-start-column="29" selection-end-line="19" selection-end-column="29" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Library/Java/JavaVirtualMachines/jdk1.8.0_181.jdk/Contents/Home/src.zip!/java/lang/Thread.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="21267">
-              <caret line="1324" column="22" selection-start-line="1324" selection-start-column="22" selection-end-line="1324" selection-end-column="22" />
-              <folding>
-                <element signature="e#38621#38622#0" expanded="true" />
-                <element signature="e#38666#38667#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/app/serial/SelectCOMPort.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="289">
-              <caret line="24" column="9" selection-start-line="20" selection-start-column="8" selection-end-line="24" selection-end-column="9" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="jar:///Applications/Processing.app/Contents/Java/core.jar!/processing/core/PApplet.class">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="9027">
-              <caret line="647" column="16" selection-start-line="647" selection-start-column="16" selection-end-line="647" selection-end-column="16" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/app/video/Animations.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="290">
-              <caret line="43" column="70" selection-start-line="43" selection-start-column="70" selection-end-line="43" selection-end-column="70" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/main/java/app/serial/SerialListener.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1853">
-              <caret line="121" column="34" selection-start-line="121" selection-start-column="34" selection-end-line="121" selection-end-column="34" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1625#1626#0" expanded="true" />
-                <element signature="e#1661#1662#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/build.gradle">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="408">
-              <caret line="24" column="1" selection-start-line="24" selection-start-column="1" selection-end-line="24" selection-end-column="1" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -644,11 +507,15 @@
     <detection-done>true</detection-done>
     <sorting>DEFINITION_ORDER</sorting>
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="ProjectFrameBounds" fullScreen="true">
     <option name="x" value="1280" />
     <option name="width" value="1920" />
     <option name="height" value="1080" />
   </component>
+  <component name="ProjectId" id="24aZQW3Az3wkNH7bI1kRPhUZR7h" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectView">
     <navigator proportions="" version="1">
@@ -708,14 +575,20 @@
       </pane>
     </panes>
   </component>
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
   <component name="PropertiesComponent">
     <property name="GenerateAntBuildDialog.backupFiles" value="true" />
     <property name="GenerateAntBuildDialog.enableUiFormCompile" value="true" />
     <property name="GenerateAntBuildDialog.forceTargetJdk" value="true" />
     <property name="GenerateAntBuildDialog.outputFileNameProperty" value="test" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1541740788779" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Global Libraries" />
@@ -734,19 +607,7 @@
       <recent name="$PROJECT_DIR$/src/main" />
     </key>
   </component>
-  <component name="RunDashboard">
-    <option name="ruleStates">
-      <list>
-        <RuleState>
-          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
-        </RuleState>
-        <RuleState>
-          <option name="name" value="StatusDashboardGroupingRule" />
-        </RuleState>
-      </list>
-    </option>
-  </component>
-  <component name="RunManager" selected="Application.App">
+  <component name="RunManager" selected="Application.SelectCOMPort">
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="app.App" />
       <module name="test_main" />
@@ -754,6 +615,19 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="app.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SelectCOMPort" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="com.test.app.serial.SelectCOMPort" />
+      <module name="test.main" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.test.app.serial.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -777,29 +651,34 @@
         </option>
         <option name="vmOptions" />
       </ExternalSystemSettings>
+      <ExternalSystemDebugServerProcess>true</ExternalSystemDebugServerProcess>
+      <ExternalSystemReattachDebugProcess>true</ExternalSystemReattachDebugProcess>
+      <DebugAllEnabled>false</DebugAllEnabled>
       <method v="2" />
     </configuration>
-    <configuration name="Exec Jar" type="JarApplication" factoryName="JAR Application">
+    <configuration name="Exec Jar" type="JarApplication">
       <option name="JAR_PATH" value="$PROJECT_DIR$/build/libs/test-1.0-SNAPSHOT.jar" />
       <option name="VM_PARAMETERS" value="-Djava.library.path=/Library/Java/Extensions" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="true" />
       <option name="ALTERNATIVE_JRE_PATH" value="1.8" />
-      <module name="test_main" />
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="JAR Application.Exec Jar" />
       <item itemvalue="Application.App" />
       <item itemvalue="Gradle.03-VideoThing [jar]" />
+      <item itemvalue="JAR Application.Exec Jar" />
+      <item itemvalue="Application.SelectCOMPort" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.SelectCOMPort" />
         <item itemvalue="Application.App" />
         <item itemvalue="Gradle.03-VideoThing [jar]" />
       </list>
     </recent_temporary>
   </component>
+  <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="SvnConfiguration">
     <configuration />
   </component>
@@ -823,6 +702,7 @@
       <workItem from="1541732680268" duration="2757000" />
       <workItem from="1541763594858" duration="1251000" />
       <workItem from="1541985480394" duration="161000" />
+      <workItem from="1643870646923" duration="316000" />
     </task>
     <task id="LOCAL-00001" summary="gen JAR. Create window to choose COM port.">
       <created>1541568501265</created>
@@ -881,10 +761,7 @@
     </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
-    <option name="version" value="1" />
-  </component>
-  <component name="VcsContentAnnotationSettings">
-    <option name="myLimit" value="2678400000" />
+    <option name="version" value="3" />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="gen JAR. Create window to choose COM port." />
@@ -895,33 +772,28 @@
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/app/App.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/test/app/App.java</url>
           <line>8</line>
-          <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/app/App.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/test/app/App.java</url>
           <line>35</line>
-          <properties />
           <option name="timeStamp" value="14" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/app/App.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/test/app/App.java</url>
           <line>34</line>
-          <properties />
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/app/App.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/test/app/App.java</url>
           <line>36</line>
-          <properties />
           <option name="timeStamp" value="16" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
-          <url>file://$PROJECT_DIR$/src/main/java/app/App.java</url>
+          <url>file://$PROJECT_DIR$/src/main/java/com/test/app/App.java</url>
           <line>24</line>
-          <properties />
           <option name="timeStamp" value="26" />
         </line-breakpoint>
       </breakpoints>
